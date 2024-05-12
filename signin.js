@@ -12,7 +12,7 @@ document.getElementById("signin-form").addEventListener("submit", function(event
         // Authentication successful, redirect to home page or dashboard
         alert("Authentication successful!");
         // Redirect to home page or dashboard
-        window.location.href = "dasboard.html";
+        window.location.href = "dashboard.html";
     } else {
         // Authentication failed, show error message
         alert("Authentication failed. Please check your email and password.");
